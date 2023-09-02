@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 0;
+    background-color: black;
+    color: #fff;
+    }
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: black;
+    color:#fff;
+}
+
+.overlay {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0px;
+    max-width: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay-content a, .openbtn, .closebtn {
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.overlay-content a{
+    display: inline-block;
+    text-decoration:none;
+}
+
+.overlay-content a  :hover{
+    color: #444444;
+    background-color:#fff;
+
+}
+
+.openbtn{
+    display: none;
+    float: right;
+}
+
+.closebtn{
+    display: none;
+}
+
+main,footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+}
+
+#image{
+    background-color: #000;
+    max-width: 100;
+    align-items: center;
+    justify-content: center;
+    height: 640px;
+    display: block;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#biography, #filmography, #awards {
+    display: flex;
+    flex-direction: column;
+    padding-top: 65px;
+}
+
+#biography{
+    color: black;
+    background-color: #fff;
+    width: 100%;
+}
+#biography h3{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#tribute-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 90px 40px 90px;
+}
+
+#tribute-info p {
+    width: 800px;
+    line-height: 1.8;
+    padding: 20px;
+    font-size: 18px;
+}
+
+#filmography {
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #000;
+    width: 100%;
+}
+
+#filmography p {
+    text-align: center;
+}
+
+.movie-cont{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.poster{
+    color: #000;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.poster img{
+    width: 150px;
+    height: 150px;
+    border-radius: 40px;
+    border: 1px solid #444444;
+}
+
+.poster ul{
+    padding-left: 30px;
+}
+
+#awards{
+    background-color: #fff;
+    color: #000;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#awards p{
+    text-align:center;
+}
+
+#info{
+    background-color: #000;
+    color: #fff;
+    
+}
+
+.links a{
+    color: white;
+    font-size:30px ;
+    text-decoration: none;
+    margin: 15px;
+}
+
